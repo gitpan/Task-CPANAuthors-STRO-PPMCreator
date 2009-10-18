@@ -1,34 +1,11 @@
 NAME
-    Task::CPANAuthors::STRO
+    Task::CPANAuthors::STRO - modules required by PPMCreator.
 
 SYNOPSIS
-     perl -MCPAN -e 'install Task::CPANAuthors::STRO'
-
-CONTENTS
-    Data::Define
-
-    FindBin::Real
-
-    FTN::Address
-
-    FTN::Nodelist
-
-    Lingua::Cyrillic::Translit::ICAO
-
-    Lingua::Multinational::Translit::ICAO
-
-    Lingua::RU::Jcuken
-
-    Lingua::EN::Jcuken
-
-    Prompt::Timeout
-
-    Text::Compare
-
-    Win32::Uptime
+     ppm install Task::CPANAuthors::STRO::PPMCreator
 
 DESCRIPTION
-    Task:: of modules I maintain.
+    "Task" for installing modules required by PPMCreator.
 
 AUTHOR
     Serguei Trouchelle <stro@cpan.org>

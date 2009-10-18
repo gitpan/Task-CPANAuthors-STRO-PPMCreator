@@ -1,15 +1,17 @@
 package Task::CPANAuthors::STRO;
 
+# $Id: PPMCreator.pm 9 2009-10-18 16:07:28Z stro $
+
 use strict;
 use warnings;
 
-our $VERSION = '2009.0531';
+our $VERSION = '2009.1018';
 
 1;
 
 =head1 NAME
 
-Task::CPANAuthors::STRO
+Task::CPANAuthors::STRO - modules required by PPMCreator.
 
 =head1 SYNOPSIS
 
@@ -17,7 +19,7 @@ Task::CPANAuthors::STRO
 
 =head1 DESCRIPTION
 
-"Task" for installing modules required for PPMCreator.
+"Task" for installing modules required by PPMCreator.
 
 =head1 AUTHOR
 

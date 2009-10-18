@@ -1,19 +1,28 @@
 --- #YAML:1.0
-name:                Task-CPANAuthors-STRO-PPMCreator
-version:             2009.0531
-abstract:            "Task" for installing modules required for PPMCreator
-license:             perl
-author:              
+name:               Task-CPANAuthors-STRO-PPMCreator
+version:            2009.1018
+abstract:           "Task" for installing modules required by PPMCreator
+author:
     - Serguei Trouchelle <stro@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.4401
-distribution_type:   module
-requires:     
-    DBD::mysql:                    0
-    FindBin::Real:                 1.05
-    HTML::Template::Compiled:      0.93
-    IPC::Run3:                     0.042
-    PPM::Make:                     0.96
-    Test::Reporter:                1.5203
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    DBD::mysql:           0
+    FindBin::Real:        1.05
+    HTML::Template::Compiled:  0.93
+    IPC::Run3:            0.042
+    Module::Build:        0
+    PPM::Make:            0.96
+    Test::Reporter:       1.5203
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
